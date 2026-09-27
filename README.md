@@ -1,5 +1,7 @@
 # Red Team Range
 
+**Demo video (1:48):** [demo/red-team-range-demo.mp4](demo/red-team-range-demo.mp4)
+
 **An access-control test range for agents with shared memory.** Point it at a workspace, and it answers the one question a permissions screen cannot: *can this person get that secret by asking?*
 
 It works by planting **canary-tagged synthetic secrets** on separate retrieval paths, running a **reusable card matrix** of natural-language attacks from real, separate principals, and scoring every delivered reply by **deterministic string match** — no LLM judge, so no verdict is arguable. Then it narrows one credential and re-runs the identical matrix, which turns the result into a regression suite instead of a one-off finding.
