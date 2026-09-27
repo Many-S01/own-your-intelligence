@@ -1,0 +1,30 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# deps / build
+node_modules/
+dist/
+build/
+.next/
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# tooling
+.DS_Store
+*.log
+.cache/
+.claude/settings.local.json
+
+# local-only notes (never commit)
+CLAUDE.local.md
