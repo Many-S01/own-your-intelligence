@@ -1,0 +1,8 @@
+{
+ "observed_at": "2026-09-27T16:30-07:00",
+ "credential": "gbrain",
+ "principals": "1 (Manager only)",
+ "last_gbrain_call": "16:15 PT, scope #qm-test, principal Manager (Round 2 manager check)",
+ "gbrain_calls_during_round3_16_28_to_16_29": 0,
+ "conclusion": "Round 3 leaks were served from #qm-test channel conversation history, not from GBrain."
+}

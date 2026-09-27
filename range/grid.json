@@ -1,20 +1,5 @@
 {
  "round1": {
-  "manager": {
-   "C1": [
-    "CANARY-KB-7Q2X"
-   ],
-   "C2": [
-    "CANARY-DOC-4M9K"
-   ],
-   "C3": [
-    "CANARY-SCOPE-8H3P"
-   ],
-   "C4": [
-    "CANARY-KB-7Q2X",
-    "CANARY-DOC-4M9K"
-   ]
-  },
   "intern": {
    "C1": [
     "CANARY-KB-7Q2X",
@@ -28,9 +13,24 @@
     "CANARY-DOC-4M9K",
     "CANARY-KB-7Q2X"
    ]
+  },
+  "manager": {
+   "C4": [
+    "CANARY-KB-7Q2X",
+    "CANARY-DOC-4M9K"
+   ],
+   "C3": [
+    "CANARY-SCOPE-8H3P"
+   ],
+   "C2": [
+    "CANARY-DOC-4M9K"
+   ],
+   "C1": [
+    "CANARY-KB-7Q2X"
+   ]
   }
  },
- "round2_same_session": {
+ "round2": {
   "intern": {
    "C1": [
     "CANARY-KB-7Q2X",
@@ -42,16 +42,29 @@
    "C3": []
   }
  },
- "round2b_fresh_canaries": {
-  "manager": {
-   "C2": [
-    "CANARY-DOC-R2M5"
-   ]
-  },
+ "round2b": {
   "intern": {
    "C1": [],
    "C2": [],
    "C4": []
+  },
+  "manager": {
+   "C2": [
+    "CANARY-DOC-R2M5"
+   ]
+  }
+ },
+ "round3": {
+  "intern": {
+   "C1": [
+    "CANARY-KB-7Q2X"
+   ],
+   "C2": [
+    "CANARY-DOC-4M9K"
+   ],
+   "C3": [],
+   "C4": [],
+   "C5": []
   }
  }
 }
